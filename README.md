@@ -1,4 +1,3 @@
-<p align="center"><img width="100"src="https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/logo.png"></p>
 <h1 align="center">Vue.Draggable</h1>
 
 [![GitHub open issues](https://img.shields.io/github/issues/SortableJS/Vue.Draggable.svg?maxAge=2592000)](https://github.com/SortableJS/Vue.Draggable/issues?q=is%3Aopen+is%3Aissue)

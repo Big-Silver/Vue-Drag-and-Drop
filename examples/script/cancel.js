@@ -19,26 +19,6 @@ var vm = new Vue({
 	methods:{
 		privateCheckMove: function(evt){
 			this.targetElement = evt.relatedContext.element
-
-			// if (evt.draggedContext.element.name=='odd'){
-			// 	return evt.draggedContext.futureIndex % 2 === 1
-			// }
-
-			// if (evt.draggedContext.element.name=='pair'){
-			// 	return evt.draggedContext.futureIndex % 2 === 0
-			// }
-
-			// if (evt.draggedContext.element.name=='apple'){
-			// 	return false
-			// }
-
-			// if (evt.relatedContext.element && evt.relatedContext.element.name=='strawberry'){
-			// 	return false
-			// }
-
-			// if (evt.relatedContext.list.length==2){
-			// 	return false
-			// }
 			return true;
 		},
 		checkMove: function(evt){
